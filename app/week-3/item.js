@@ -3,10 +3,10 @@
 export default function Item({ name, quantity, category }) {
 
     return (
-        <div>
-            <h3>{name}</h3>
-            <p>Buy {quantity}</p>
-            <p>in {category}</p>
+        <div className="bg-blue-100">
+            <h3 className="font-bold ">{name}</h3>
+            <p className="">Buy {quantity}</p>
+            <p className="">in {category}</p>
         </div>
     )
 }
