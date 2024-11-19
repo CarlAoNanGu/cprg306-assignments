@@ -24,7 +24,7 @@ export default function LandingPage() {
             <button onClick={handleLogout} className="btn-primary">
               Logout
             </button>
-            <Link href="/week-9/shopping-list">
+            <Link href="/week-10/shopping-list">
               <button className="btn-secondary">
                 Go to Shopping List
               </button>
